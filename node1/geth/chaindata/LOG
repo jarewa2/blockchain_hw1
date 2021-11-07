@@ -1,0 +1,30 @@
+=============== Nov 6, 2021 (EDT) ===============
+09:04:01.135151 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+09:04:01.144130 db@open opening
+09:04:01.147119 version@stat F·[] S·0B[] Sc·[]
+09:04:01.149172 db@janitor F·2 G·0
+09:04:01.149172 db@open done T·4.0483ms
+09:04:01.188524 db@close closing
+09:04:01.189520 db@close done T·996.6µs
+=============== Nov 6, 2021 (EDT) ===============
+09:17:59.963845 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+09:17:59.969831 version@stat F·[] S·0B[] Sc·[]
+09:17:59.969831 db@open opening
+09:17:59.970831 journal@recovery F·1
+09:17:59.987781 journal@recovery recovering @1
+09:18:00.039642 memdb@flush created L0@2 N·15 S·1KiB "+C\x9c..\f3z,v5":"\xfd\xa2R..\x9c\xc76,v3"
+09:18:00.069562 version@stat F·[1] S·1KiB[1KiB] Sc·[0.25]
+09:18:00.097691 db@janitor F·3 G·0
+09:18:00.097691 db@open done T·127.8598ms
+20:32:52.933836 db@close closing
+20:32:52.937828 db@close done T·4.9875ms
+=============== Nov 6, 2021 (EDT) ===============
+20:34:58.583119 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+20:34:58.584118 version@stat F·[1] S·1KiB[1KiB] Sc·[0.25]
+20:34:58.584118 db@open opening
+20:34:58.584118 journal@recovery F·1
+20:34:58.590104 journal@recovery recovering @3
+20:34:58.595107 memdb@flush created L0@5 N·12 S·921B "Dat..ion,v17":"r\x00\x00..GqQ,v24"
+20:34:58.601107 version@stat F·[2] S·1KiB[1KiB] Sc·[0.50]
+20:34:58.620021 db@janitor F·4 G·0
+20:34:58.620021 db@open done T·35.9032ms
